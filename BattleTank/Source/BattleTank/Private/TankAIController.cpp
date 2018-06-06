@@ -10,7 +10,7 @@ void ATankAIController::BeginPlay()
 	auto PlayerTank = GetPlayerTank();
 	if (!PlayerTank)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("AIController cannot fint player tank"));
+		UE_LOG(LogTemp, Warning, TEXT("AIController cannot find player tank"));
 	}
 	else
 	{
